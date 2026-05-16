@@ -77,9 +77,10 @@ export default function OnlyFansExperience() {
         </a>
       </div>
 
-      <p className="relative z-10 pb-5 text-center text-xs text-zinc-600">
-        no creators were harmed · fan may contain blades
-      </p>
+      <footer className="relative z-10 space-y-1 pb-5 text-center text-xs text-zinc-600">
+        <p>no creators were harmed · fan may contain blades</p>
+        <p className="text-zinc-500">still learning how to make a fan in three.js</p>
+      </footer>
     </div>
   );
 }
